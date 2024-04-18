@@ -11,8 +11,11 @@ const validAlphabeticString = /^[A-Za-z]+$/;
 // Use the test method to check whether something matches the rules. 
 console.log(validWholeNumberRegEx.test(456))
 
-// Create three functions which check user input for three pieces of data.
-// 1. Their name; 2. Their age; 3. Their height. 
+// Create three functions that check specific pieces of data.
+// e.g. 1. A name; 2. An age; 3. A height.
+// let personName = "123abc"   // should return false;
+// let personAge = 15.5 // should this be allowed?
+// let personHeight = "blah blah blah" // should this be allowed?
 
 
 
