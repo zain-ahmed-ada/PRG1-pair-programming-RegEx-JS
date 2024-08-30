@@ -33,18 +33,18 @@ console.log(validWholeNumberRegEx.test(456))
 
 // Example code from the lesson slides:
 
-// function validInput(input){
-//     const AtoZAndSpaceRegex = /^[A-Za-z]+$/;
-//     return AtoZAndSpaceRegex.test(input)
-// }
+function validInput(input){
+    const AtoZAndSpaceRegex = /^[A-Za-z]+$/;
+    return AtoZAndSpaceRegex.test(input)
+}
 
-// while (true) {
-//     let userInput = readlineSync.question("Please enter alpha characters only: ");
-//     if (validInput(userInput)) {
-//         console.log("Thank you. Please continue.");
-//         break;
-//     }
-//     else {
-//         console.log("Incorrect input.");
-//     }
-// } 
+while (true) {
+    let userInput = readlineSync.question("Please enter alpha characters only: ");
+    if (validInput(userInput)) {
+        console.log("Thank you. Please continue.");
+        break;
+    }
+    else {
+        console.log("Incorrect input.");
+    }
+} 
