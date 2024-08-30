@@ -6,6 +6,7 @@
 
 const validWholeNumberRegEx = /^[0-9]+$/;
 const validPositiveWholeDecimalNumber = /^(?:0|[1-9]\d*)(?:\.\d+)?$/;
+const validFloatingPoint2DP = /^[0-9]+\.[0-9][0-9]$/;
 const validAlphabeticString = /^[A-Za-z]+$/;
 
 // Use the test method to check whether something matches the rules. 
