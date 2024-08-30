@@ -5,7 +5,7 @@
 
 
 const validWholeNumberRegEx = /^[0-9]+$/;
-const validPositiveWholeDecimalNumber = /^(?:\d+|\d*\.\d+)$/;
+const validPositiveWholeDecimalNumber = /^(?:0|[1-9]\d*)(?:\.\d+)?$/;
 const validAlphabeticString = /^[A-Za-z]+$/;
 
 // Use the test method to check whether something matches the rules. 
