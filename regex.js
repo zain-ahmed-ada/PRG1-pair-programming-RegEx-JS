@@ -21,6 +21,14 @@ const checkName = (name) => {
 	}
 };
 
+const checkAge = (age) => {
+	if (validWholeNumberRegEx.test(age)) {
+		return true;
+	} else {
+		return false;
+	}
+};
+
 // Other regex methods do exist such as match() (which looks for matching
 // characters) and replace() (which replaces characters), but test is
 // probably the most commonly used and the one you should use here.
